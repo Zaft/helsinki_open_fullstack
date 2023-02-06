@@ -93,12 +93,12 @@ const App = () => {
         break;
       default:
     }
-    console.log("newGood, newBad, newAll", newGood, newBad, newAll);
+    // console.log("newGood, newBad, newAll", newGood, newBad, newAll);
     let avg =(newGood - newBad) / (newAll);
     setAverage(avg)
     let pos = (newGood / newAll) * 100 + "%";
     setPositive(pos);
-    console.log("all: ", {all});
+    // console.log("all: ", {all});
   }
 
   return (
