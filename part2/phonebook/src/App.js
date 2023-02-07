@@ -62,9 +62,6 @@ const App = () => {
         handleFilterChange={handleFilterChange}
       ></PersonForm>
       <h3>Numbers</h3>
-      {/* {peopleToShow.map(person => {
-        return <div key={person.name}> {person.name} {person.number} </div>
-      })} */}
       <Persons peopleToShow={peopleToShow} />
     </div>
   )
