@@ -74,6 +74,7 @@ const App = () => {
               `Information for ${newPersonObject.name} has already been deleted from server`
             )
             setTimeout(() => { setMessage(null)}, 5000)
+            
           })
 
           setNewName('')
